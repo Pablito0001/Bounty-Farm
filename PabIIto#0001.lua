@@ -1,18 +1,28 @@
--- Commands /start, /stop
+--[[
 
-getgenv().Settings = {
-        ["Host"] = 1706396537, -- // Host ID (Account that inputs commands and collects stomps)
-        ["Attacker"] = 286310634, -- // Attacker ID (Account that kills all the ALTs)
-        ["FPS"] = 4, -- // ALTs FPS
-        ["Crew_ID"] = 16906600, -- // Attacker + Host must be inside of the group
+    Commands: /start, /stop
+
+    Loadstring Version: https://github.com/halloweevn/roblox-scripts/blob/main/DHBountyFarmer/loadstring.lua
+    
+]]--
+
+-- // IF YOU ARE USING THE SOURCE VERSION THEN REMOVE THE --[[ & ]]--
+
+--[[
+    
+    getgenv().Settings = {
+        ["Host"] = 12345, -- // Host ID (Account that inputs commands and collects stomps)
+        ["Attacker"] = 12345, -- // Attacker ID (Account that kills all the ALTs)
+        ["FPS"] = 3, -- // ALTs FPS
+        ["Crew_ID"] = 1, -- // Attacker + Host must be inside of the group
         ["ALTs"] = { -- // WARNING: These ALTs will lose there bounty
-            1706466079,
-            1708349917,
-            1706294753, -- you can keep adding accounts
+            12345,
+            12345,
+            12345,
         },
     }
 
-
+]]--
 -- // Check if already loaded
 if getgenv().BountyFarm_Loaded then
     return
