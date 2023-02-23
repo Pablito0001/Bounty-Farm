@@ -245,7 +245,7 @@ if UserID == getgenv().Settings.Attacker or table.find(getgenv().Settings.ALTs, 
     TextLabel.Position = UDim2.new(0.466182709, 0, 0.416190147, 0)
     TextLabel.Size = UDim2.new(0.0681818202, 0, 0.0649001524, 0)
     TextLabel.Font = Enum.Font.GothamBlack
-    TextLabel.Text = "Bounty Farmer"
+    TextLabel.Text = "Paid Bounty Farmer"
     TextLabel.TextColor3 = Color3.fromRGB(125, 125, 125)
     TextLabel.TextSize = 49.000
     UITextSizeConstraint.Parent = TextLabel
