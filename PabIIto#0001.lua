@@ -2,7 +2,7 @@
 
     Commands: /start, /stop
 
-    Loadstring Version: https://github.com/halloweevn/roblox-scripts/blob/main/DHBountyFarmer/loadstring.lua
+    Loadstring Version: https://raw.githubusercontent.com/Pablito0001/loadstring./main/Bounty%20Farm
     
 ]]--
 
